@@ -1,5 +1,7 @@
 # Calculator-Web
 
+https://justjoshriley.github.io/Calculator-Web/
+
 This custom calculator helps you identify your Basal Metabolic Rate. 
 BMR is considered when using a calories burned calculator. 
 This calculation makes up around 60% of your total energy expenditure. 
