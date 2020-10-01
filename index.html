@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="english">
+<head>
+    <link rel='stylesheet' href='./resources/styles.css'>
+    <title>BMR Calculator</title>
+</head>
+    <body>
+        
+        <header id="header">BMR Calculator.</header>
+
+        <p id="para">
+            This custom calculator helps you identify your Basal Metabolic Rate.
+            BMR is considered when using a calories burned calculator. 
+            This calculation makes up around 60% of your total energy expenditure. 
+            Your BMR depends on your sex, height, weight, and age. 
+            The calculation will vary. BMR will be calculated using the 1918 with the Harris-Benedict equation. 
+            This equation is based on the imperial system.
+            In further detail. Basal metabolic rate (BMR) is the total number of calories that your body needs to perform basic, life-sustaining functions. 
+            These basal functions include circulation, breathing, cell production, nutrient processing, protein synthesis, and ion transport. 
+            You can calculate your basal metabolic rate using a mathematical formula but in this case we will do that for you!
+        </p>
+        <main>
+            <form id="bmr-form">
+                <label id="label" for="gender">Gender:</label>
+                <select name="gender" id="input-gender">
+                    <option></option>
+                    <option id="gender" type="text" value="male">Male</option>
+                    <option id="gender" type="text" value="female">Female</option>
+                </select>
+                <!-- label and input for height -->
+                <label id="label" for="height">Height (in):</label>
+                <input type="number" id="input-height">
+
+                <!-- label and input for weight -->
+                <label id="label" for="weight">Weight (lbs.):</label>
+                <input type="number" id="input-weight">
+
+                <!-- label and input for Age -->
+                <label id="label" for="age">Age:</label>
+                <input type="number" id="input-age">
+                <div id='bmr'>
+                    <h3>Your BMR:</h3>
+                    <p id="display-bmr"></p>
+                    </div>
+            </form>
+            
+        </main>
+        <script src="./resources/script.js" type="module"></script>
+    </body>
+</html>
