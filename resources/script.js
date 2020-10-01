@@ -19,7 +19,6 @@ function calculateBmr() {
     const height = parseFloat(inputHeight.value).toFixed(2);
     const weight = parseFloat(inputWeight.value).toFixed(2);
     const age = inputAge.value;
-    // const gender = inputGender.value;
 
     //check to see if height, weight, or age are numbers
     //if not a number return null
